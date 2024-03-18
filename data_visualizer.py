@@ -434,4 +434,5 @@ if __name__ == '__main__':
     # data_visualizer(gtfile_path=args.gtfile, binfile_path=args.binfile).plot_gt_prediction_3D()
     # data_visualizer(gtfile_path=args.gtfile, binfile_path=args.binfile, accum_pattern=True).plot_gt_Pattern3D_2()
     # data_visualizer(gtfile_path=args.gtfile, binfile_path=args.binfile, GT_accum = True, pattern_accum=True, plot_accum=True).plot_gt_Pattern3D_2()
+    #--binfile "data/DS0/DS0.npy" --gtfile "data/DS0/DS0.npy"
     data_visualizer(gtfile_path=args.gtfile, binfile_path=args.binfile, GT_accum = False, pattern_accum=True, plot_accum=False).plot_gt_pattern_2()
